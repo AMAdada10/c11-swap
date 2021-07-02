@@ -27,9 +27,14 @@ b = 0;
 
 
 function green_bg () {
-    r = 355;
-    g = 0;
+    r = 0;
+    g = 255;
     b=0;
 
 
+}
+
+function draw()
+{
+    background(r,g,b)
 }
